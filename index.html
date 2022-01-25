@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 80vh;
+    width: 100vw;
+    }
+
+    body {
+      background:url('images/bg-desktop.svg'),hsl(257, 40%, 49%);
+      background-blend-mode: multiply;
+      background-size: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 85vw;
+    height: 50vh;
+    margin: 0;
+    padding: 0;
+    }
+    .header {
+      display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    }
+    .main {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+    .lele {
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     height: 60vh;
+     margin-left: 20px;
+    } 
+    h2 {
+      color: white;
+      font-weight: 900;
+      font-family: 'popin',sans-serif;
+      text-align: center;
+      font-size: 35px;
+    }
+    p {
+      font-family: 'popin',sans-serif;
+      color: white;
+    }
+    input {
+      width: 100px;
+      height: 45px;
+      border-radius:0.5em;
+      border: none;
+      color: blueviolet;
+    }
+
+    .final {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+    .empty {
+      width: 75%;
+    }
+    .reseau {
+      display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+    }
+    .va {
+      margin-right: 15px;
+    }
+    .bas {
+      margin-left:15px ;
+    }
+    #photo {
+    margin-left: 20px;
+    
+    }
+    #left {
+      margin-left: 15px;
+    }
+  </style>
+</head>
+<body>
+  <div id="containner">
+    <div class="header">
+      <div id="right">
+
+      </div>
+      <div id="left">
+        <img id="logo" src="images/logo.svg">
+      </div>
+    </div>
+    <div class="main">
+      <div id="photo" >
+        <img src="images/illustration-mockups.svg">
+      </div>
+      <div class="lele">
+        <h2>Build the community <br/>your fans will love</h2>
+        <p>Huddle re-imagines the way we build communities.You 
+          have a oice ,but so does your audience.Create 
+          connexions with your users as you engage in genuiune discussion
+        </p>
+        <input type="submit" value="Register">
+
+      </div>
+    </div>
+    <div class="final">
+      <div class="empty">
+
+      </div>
+      <div class="reseau">
+        <img class="va" src="images/icon-facebook.svg">
+        <img src="images/icon-instagram.svg">
+        <img class="bas" src="images/icon-pinterest.svg">
+      </div>
+
+    </div>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://twitter.com/@dan_ushindi" target="blank">Dan Ushindi</a>.
+    </p>
+  </footer>
+</body>
+</html>
